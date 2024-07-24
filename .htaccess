@@ -1,0 +1,4 @@
+php_value session.gc_maxlifetime 43200
+
+RewriteEngine on
+RewriteRule ^content/(.*)$ /mycom2_redirect.php?title=$1 [L]
